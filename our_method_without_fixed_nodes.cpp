@@ -1303,7 +1303,7 @@ int main(int argc, char* argv[]) {
     }
 
     std::string data = argv[1];
-    std::string netlist_file_path = "./ICCAD2021-TopoPart-Benchmarks/generated_large_netlists/" + data;
+    std::string netlist_file_path = "./ICCAD2021-TopoPart-Benchmarks/Titan23_Benchmarks/Titan23_Benchmarks/" + data;
     //std::string fixed_nodes_path = "./ICCAD2021-TopoPart-Benchmarks/Titan23_Benchmarks/Titan23_Benchmarks/" + data + ".simulated_annealing.8";
 
     // Example usage:
@@ -1316,7 +1316,7 @@ int main(int argc, char* argv[]) {
     
     std::clock_t start_time = std::clock();
     
-    int capacity = ceil(4*netlist_matrix.rows()/fpga_matrix.rows());
+    int capacity = ceil(2*netlist_matrix.rows()/fpga_matrix.rows());
     std::cout << "capacity:" << capacity << std::endl;
     
     // Print the number of nodes and edges for FPGA matrix
