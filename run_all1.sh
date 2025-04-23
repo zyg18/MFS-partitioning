@@ -27,7 +27,7 @@ data_files=(
 
 for data in "${data_files[@]}"; do
     echo "Processing $data"
-    ./our_method_without_fixed_nodes "$data"
+    ./MFSPart "$data"
 done
 
 echo "All done!"
