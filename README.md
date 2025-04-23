@@ -4,19 +4,9 @@
 
 Compile the methods with the following commands:
 
-- **Without Fixed Nodes**:  
-  ```bash
-  g++ -o our_method_without_fixed_nodes our_method_without_fixed_nodes.cpp -std=c++17
-  ```
 
-- **With Fixed Nodes**:  
   ```bash
-  g++ -o our_method_with_fixed_nodes our_method_with_fixed_nodes.cpp -std=c++17
-  ```
-
-- **Reference Method (DATE2024)**:  
-  ```bash
-  g++ -o date2024 date2024.cpp -std=c++17
+  g++ -o MFSPart MFSPart_fixed.cpp -std=c++17
   ```
 
 ## Running Experiments
@@ -30,8 +20,3 @@ Compile the methods with the following commands:
    ```bash
    ./run_all2.sh
    ```
-
-3. **Large Netlists on MFS1**:  
-   ```bash
-   ./demo.sh
-   ``` 
